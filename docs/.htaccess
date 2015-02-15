@@ -1,0 +1,5 @@
+RewriteEngine on 
+RewriteBase /
+
+ RewriteRule ^([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/([-a-z0-9]*)/$ post.php?name=$4
+ RewriteRule ^content/([a-z0-9]*)/$ content.php?name=$1

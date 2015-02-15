@@ -1,0 +1,14 @@
+.style2 {	color: #FFFFFF;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.style5 {font-size: 12px; font-family: Arial, Helvetica, sans-serif; }
+.style6 {font-weight: bold}
+.style7 {
+	font-size: 16px;
+	font-weight: bold;
+}
+body,td,th {
+	font-size: 12px;
+}
