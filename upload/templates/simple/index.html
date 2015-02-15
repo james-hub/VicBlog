@@ -1,0 +1,61 @@
+{OVERALL_HEADER}
+      <div id="main">
+        <div id="sidebar">
+          <div id="sidebartop">
+          </div>
+          <div class="areahead">
+		 	{LANG_PAGES}
+		  </div>
+		  {LOOP: LINKS}
+          <div class="linkup">
+            &raquo; <a href="{LINKS.link}">{LINKS.link_title}</a><br />
+          </div>
+		  {/LOOP: LINKS}
+          <br />
+          <div class="areahead">
+            {LANG_CATEGORIES}
+          </div>
+          <div class="linkup">
+		  	{LOOP: CATS}
+            &raquo; <a href="{SITE_URL}?cat={CATS.cat_id}">{CATS.cat_title} ({CATS.cat_count})</a><br />
+		  	{/LOOP: CATS}
+          </div>
+          <br />
+          <div class="areahead">
+            {LANG_ARCHIVE}
+          </div>
+          <div class="linkup">
+		  	{LOOP: ARCHIVE}
+            &raquo; <a href="{SITE_URL}?m={ARCHIVE.month}&y={ARCHIVE.year}">{ARCHIVE.month_text} {ARCHIVE.year}</a><br />
+			{/LOOP: ARCHIVE}
+          </div>
+          <div id="sidebarbottom">
+          </div>
+        </div>
+		{LOOP: POSTS}
+        <div class="post" id="post{POSTS.post_id}">
+          <div class="datebar">
+            <div class="monthdate">
+              {POSTS.post_month_short}
+            </div>
+            <div class="monthday">
+              {POSTS.post_day}
+            </div>
+          </div>
+          <div class="content">
+            <h2><a href="{POSTS.post_url}" class="contentpostheader">{POSTS.post_title}</a></h2>
+            <span class="details">{LANG_POSTBY} <a href="{POSTS.author_url}" class="author">{POSTS.user_name}</a> {LANG_IN} <a href="{POSTS.cat_url}" class="cat">{POSTS.cat_name}</a></span><br />
+            <p>{POSTS.post_body}</p>
+            <div class="postinfo">
+              <a href="{POSTS.post_url}" class="comments">{POSTS.post_comments} {LANG_COMMENTS}</a>
+            </div>
+            <p>&nbsp;</p>
+          </div>
+        </div>
+		{/LOOP: POSTS}
+      </div>
+          <div style="width:200px;float:left;margin-left:80px;" align="left">IF("{PG_LESS}"!=""){<a href="{PG_LESS}">&lt;&lt; Less</a>{:IF}</div>
+          <div style="width:240px;float:left;" align="right">IF("{PG_MORE}"!=""){<a href="{PG_MORE}">More &gt;&gt;</a>{:IF}</div>
+	  <br />
+	  <br />
+{OVERALL_FOOTER}

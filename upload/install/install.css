@@ -1,0 +1,43 @@
+/* VicBlog Installer CSS by Danno */
+
+body {
+    background: #F1F1F1;
+	font-family: Verdana, Arial, Times New Roman;
+	font-size: 12px;
+	color: #222;
+}
+
+.wrapper {
+    width: 900px;
+	border: 1px solid silver;
+	background: #FFFFFF;
+	text-align: left;
+	font-size: 12px;
+	color: #333;
+	padding: 10px;
+	margin: 10px auto 10px auto;
+}
+
+.heading {
+    font-size: 22px;
+	font-weight: bold;
+	color: #88A2F0;
+}
+
+.gpl {
+    width: 500px;
+	height: 300px;
+	color: #333;
+	background: #F1F1F1;
+	border: 1px solid silver;
+	font-size: 12px;
+}
+
+.button {
+    padding: 5px;
+	color: #666;
+	font-size: 12px;
+	font-weight: bold;
+	background: #F1F1F1;
+	border: 1px solid silver;
+}

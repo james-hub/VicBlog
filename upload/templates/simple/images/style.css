@@ -1,0 +1,480 @@
+BODY {
+
+	background: #F1F1F1;
+
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+	margin:0;
+
+	padding:0;
+
+}
+
+a {
+
+	text-decoration:none;
+
+	color:#3366FF;
+
+}
+
+a:hover {
+
+	text-decoration:underline;
+
+}
+
+#wrapper {
+	margin: 10px auto 10px auto;
+	width: 900px;
+	padding:0;
+        border: thin solid silver;
+        background: #FFFFFF;
+        
+}
+
+.header {
+        height: 120px;
+        padding: 10px;
+	width:899px;
+        background: #88A2F0;
+        font-size: 25px;
+        font-weight: bold;
+        color: #FFFFFF;
+	border-bottom:1px solid silver;
+	border-top:1px solid silver;
+        cursor: pointer;
+}
+
+.heading {
+        font-weight: bold;
+        font-size: 14px;
+        color: #88A2F0;
+}
+#header_bottom {
+
+	width:899px;
+
+	margin:0px auto;
+
+	height:14px;
+
+	padding:0;
+
+	cursor:pointer;
+
+}
+
+h1{
+
+	margin-top:35px;
+
+	font-size:39px;
+
+	text-align:center;
+
+	color:#ffffff;
+
+	font-weight: bold;
+
+}
+
+#headersubhead{
+
+	font-size:22px;
+
+	text-align:center;
+
+	color:#ffffff;
+
+	text-align: center;
+
+}
+
+#navbar {
+
+	margin:0 auto;
+
+	margin-top:10px;
+
+	margin-bottom:0px;
+
+	width:899px;
+
+	height:40px;
+
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+
+}
+
+ul {
+
+	list-style:none;
+
+	margin:0;
+
+	padding:0;
+
+}
+
+ul li {
+
+	float:left;
+
+	margin-top:9px;
+
+	margin-left:15px;
+
+	padding:0;
+
+}
+
+#main {
+
+	margin-left:10px;
+
+	margin-right:3px;
+
+	color:#000000;
+
+	padding-top: 15px;
+
+	padding-right: 10px;
+
+}
+
+.post {
+
+	width:530px;
+
+}
+
+.postinfo{
+
+	width:430px;
+
+	height:25px;
+
+	background:#F1F1F1;
+
+	border:1px solid silver;
+
+	text-align:right;
+
+	padding-right:15px;
+
+	padding-top:7px;
+
+	font-size:14px;
+
+	font-weight:bold;
+
+	color:#333;
+
+}
+
+.monthdate{
+
+	margin-left:0px;
+
+	margin-top:5px;
+
+	font-size:10px;
+
+	color:#3366ff;
+
+	text-align:center;
+
+}
+
+.monthday{
+
+	margin-left:0px;
+
+	margin-top:5px;
+
+	font-size:20px;
+
+	font-weight:bold;
+
+	color:#88A2F0;
+
+	text-align:center;
+
+}
+
+.htmlcontent {
+
+	width: 450px;
+
+	margin-left:5px;
+
+}
+
+.htmlcontent p {
+
+	font-size:12px;
+
+	font-style:normal;
+
+}
+
+.content {
+
+	width: 450px;
+
+	margin-left:65px;
+
+}
+
+.content p {
+
+	font-size:12px;
+
+	font-style:normal;
+
+}
+
+h2{
+
+	color:#2d395a;
+
+	padding:0px;
+
+	margin:0px;
+
+	font-size:24px;
+
+	font-weight:bold;
+
+}
+
+.content .details{
+
+	font-size:12px;
+
+	color:#999999;
+
+	font-weight:bold;
+
+}
+
+.datebar {
+
+	float:left;
+
+	width:55px;
+
+	height: 60px;
+
+}
+
+.error {
+
+	color:#FF0000;
+
+}
+
+.logintable {
+        width: 350px;
+        border: 1px solid silver;
+        background: #F5F5F5;
+        padding: 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+
+.titles {
+       font-size: 12px;
+       font-weight: normal
+       text-align: left;
+}
+
+.fields {
+       border: 1px solid silver;
+       padding: 3px;
+       color: #333;
+       background: #FFFFFF;
+       font-size: 11px;
+}
+
+.button {
+       border: 1px solid silver;
+       padding: 5px;
+       color: #333;
+       background: #F5F5F5;
+       font-size: 12px;
+       font-weight: bold;
+}
+
+#sidebar {
+
+	float: right;
+
+	color:#2d395a;
+
+	width:212px;
+        border-left: thin solid silver;
+
+}
+
+#sidebar p{
+
+	color:#2d395a;
+
+	padding-left:15px;
+
+	font-size:14px;
+
+	font-weight:bold;
+
+}
+
+#sidebar .areahead{
+
+	font-size:14px;font-weight:bold;margin:0;padding-left:15px;
+
+}
+
+#sidebar .linkup{
+
+	font-size:12px;font-weight:normal; margin:0;padding-left:25px;
+
+}
+
+#sidebartop{
+
+	height:12px;
+
+	padding:0;
+
+	margin:0;
+
+}
+
+#sidebarbottom {
+
+	height:37px;
+
+}
+
+#footer {
+
+	height:35px;
+        width: 899px;
+
+}
+
+#footer p{
+
+	text-align:left;
+
+	font-size:10px;
+
+	padding-left:25px;
+
+	color:#666;
+
+}
+
+a.comments:link, a.comments:active, a.comments:visited, a.comments:hover 
+
+{
+
+	color: #2d395a;
+
+}
+
+a.author:link, a.author:active, a.author:visited, a.author:hover 
+
+{
+
+	color: #999999;
+
+}
+
+a.cat:link, a.cat:active, a.cat:visited, a.cat:hover 
+
+{
+
+	color: #999999;
+
+}
+
+a.contentpostheader:link, a.contentpostheader:active, a.contentpostheader:visited, a.contentpostheader:hover 
+
+{
+
+	text-decoration: none;
+
+}
+
+.commentfields
+
+{
+
+	width: 250px;
+
+}
+
+.commenttitle
+
+{
+
+	font-size:12px;
+
+}
+
+FORM 
+
+{
+
+	padding:0px;margin:0px;
+
+}
+
+.leavecomment 
+
+{
+
+	color:#2d395a;
+
+	padding:0px;
+
+	margin:0px;
+
+	font-size:18px;
+
+	font-weight:bold;
+
+}
+
+.commentpost
+
+{
+
+	font-size:12px;
+
+	font-style:normal;
+
+}
+
+a.commentlink:link, a.commentlink:active, a.commentlink:visited, a.commentlink:hover 
+
+{
+
+	text-decoration: none;
+
+	font-size:12px;
+
+	color:#999999;
+
+	font-weight:bold;
+
+}
+
+.titles {
+        color: #222;
+        font-size: 12px;
+        font-weight: normal;
+}
